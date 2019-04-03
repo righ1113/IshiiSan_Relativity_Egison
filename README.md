@@ -14,6 +14,19 @@ Egisonで計算しながら読書を進める。
 Egisonは数式処理ができる。また、テンソルも扱える。  
 
 # 第1章　数学の準備
+- Egisonで  
+公式1.21「rot grad f(**x**) = **0**」  
+公式1.22「div rot **A**(**x**) = 0」  
+を計算した。  
+
+```egison
+> (load "sample\\math\\geometry\\vector-analysis.egi")
+> (rot (grad f))
+[| [| 0 0 0 |] [| 0 0 0 |] [| 0 0 0 |] |]
+> (div (rot A))
+0
+```
+
 
 # 第2章　物理の準備
 
