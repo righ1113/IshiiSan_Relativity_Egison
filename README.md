@@ -13,6 +13,11 @@
 Egisonで計算しながら読書を進める。  
 Egisonは数式処理ができる。また、テンソルも扱える。  
 
+# Jupyter良いかも
+- 分数とか行列とかをきれいに表示してくれます。  
+- 入れ方は<a href="https://github.com/egison/egison_kernel" target="_blank">公式</a>を参照してください。  
+- Windowsだと動かなかった。Linux(VirtualBox)で動いた。  
+
 # 第1章　数学の準備
 - Egisonで  
 公式1.21「rot grad f(**x**) = **0**」  
