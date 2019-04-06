@@ -14,8 +14,9 @@ Egisonで計算しながら読書を進める。
 Egisonは数式処理ができる。また、テンソルも扱える。  
 
 # Jupyter良いかも
-- 分数とか行列とかをきれいに表示してくれます。  
+- 分数とか行列とかをきれいに表示してくれる。  
 - 入れ方は<a href="https://github.com/egison/egison_kernel" target="_blank">公式</a>を参照してください。  
+「Jupyter's CodeMirror directory」とは、`> jupyter notebook`を叩くフォルダです。  
 - Windowsだと動かなかった。Linux(VirtualBox使用)で動いた。  
 
 # 第1章　数学の準備
