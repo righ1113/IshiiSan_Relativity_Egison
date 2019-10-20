@@ -22,6 +22,7 @@ Egisonは数式処理ができる。また、テンソルも扱える。
 - 入れ方は<a href="https://github.com/egison/egison_kernel" target="_blank">公式</a>を参照してください。  
 「Jupyter's CodeMirror directory」とは、`> jupyter notebook`を叩くフォルダです。  
 - Windowsだと動かなかった。Linux(VirtualBox使用)で動いた。  
+この辺が原因らしい。https://qiita.com/shita_fontaine/items/c2ceb1e66450d7e09490  
 
 # 第1章　数学の準備
 ## 1 ベクトル積
