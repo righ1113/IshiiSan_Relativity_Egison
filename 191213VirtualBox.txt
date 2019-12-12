@@ -17,7 +17,7 @@ python3 -m egison_kernel.install
 pip3 install tornado==5.1.1
 pip3 install jupyter
 cd
-cd egison
+cd egison　←自分で作ったフォルダ
 　egison.jsを持ってくる
 jupyter notebook
 /home/[user]/.local/share/jupyter　に呼び出しjsonがあるよ
