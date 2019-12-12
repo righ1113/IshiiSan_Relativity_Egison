@@ -1,0 +1,28 @@
+- VirtualBox
+インストール後
+sudo apt update
+sudo apt upgrade
+sudo apt install cabal-install
+cabal update
+cabal install egison-3.9.4　　3.8.0でも良いか　　stackでEgison入れても良いかもね
+.bashrcに
+export PATH=${PATH}:/home/furuta5/.cabal/bin
+sudo apt install python3-pip
+sudo apt install git
+適当なフォルダで
+　git clone https://github.com/egison/egison_kernel
+cd egison_kernel
+pip3 install .
+python3 -m egison_kernel.install
+pip3 install tornado==5.1.1
+pip3 install jupyter
+cd
+cd egison
+　egison.jsを持ってくる
+jupyter notebook
+/home/furuta5/.local/share/jupyter　に呼び出しjsonがあるよ
+VirtualBoxのUbuntu ファイル・アプリを起動し、
+ Ctrl + h で隠しファイル・隠しフォルダ(ディレクトリ)を表示することができます。
+
+
+
